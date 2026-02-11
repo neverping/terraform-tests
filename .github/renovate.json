@@ -9,6 +9,7 @@
       "matchManagers": [
         "terraform",
         "terraform-version",
+        "terraform-module",
         "tflint-plugin"
       ],
       "rebaseWhen": "never",
