@@ -1,4 +1,17 @@
 name: Renovate Bot
 
 on:
-  workflow_dispatch:      # <‑‑ lets you start it manually
+  workflow_dispatch:
+
+jobs:
+  renovate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6.0.2
+      - name: Self-hosted Renovate
+        uses: renovatebot/github-action@v46.0.2
+        with:
+          docker-cmd-file: .github/renovate-entrypoint.sh
+          docker-user: root
+          token: ${{ secrets.RENOVATE_TOKEN }}
