@@ -13,6 +13,7 @@
         "tflint-plugin"
       ],
       "rebaseWhen": "never",
+      "rangeStrategy": "bump",
       "automerge": true
     },
     {
