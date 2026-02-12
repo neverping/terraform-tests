@@ -3,9 +3,19 @@
 
 provider "registry.terraform.io/hashicorp/google" {
   version     = "7.19.0"
-  constraints = ">= 7.14.0"
+  constraints = ">= 7.19.0"
   hashes = [
+    "h1:2UqM8COLcsn0FeEo4WfudQsumro6Advbpn+1sO/1RDQ=",
+    "h1:2r5C6xAmNO/tFAALP3cSE/wx2e4WASYkxsXKZYGLMSA=",
     "h1:6U39C2WGzT/C0wz2Hieil+sNqqPRe0/XCqiG7pGcv8A=",
+    "h1:7w1lJ+0o7mppD5grNSWkk/26YV5w27wh4NNQgvDwIP0=",
+    "h1:8lfoMp5YTC0pDT5da1fOJNnEaCm8JWClTo51g9ceipE=",
+    "h1:Bkj7PDymO/1aIwSD9BktqtXDtNLFyOwTkgWDwUWkCS8=",
+    "h1:YA2R9R8fOTFG4j0vHcwzfGV6LWsxHIQZxJd9iQHj5EM=",
+    "h1:fsiBePQ2WgTqyORF6Klc/GDgV8JHUTMJALf6V4xJU3A=",
+    "h1:nOeXzOFiFb4vWms642LlL8fZB7jTx0ljhRuahUmLXC4=",
+    "h1:qnCCLIsaLXQZVA0deQ6fKkPcfN7ol1/9zDf3fdQJhDQ=",
+    "h1:tnRGI8hf5NACTaOLFiZQbyfNwIx19+3I/3b6ob+rHHk=",
     "zh:06da157d858384b2383414447c1bf6cf319ad72ea87d7030c6ca18b9bb774f73",
     "zh:2f1d7c3461a6b59ffcf0eed2f3764e2f0a2c70464927e561d968d82112e3600d",
     "zh:4705ce487e6b2c52376e1f9bc0dc650e8326ab3e20d0673c9fed62e1313d2d67",
